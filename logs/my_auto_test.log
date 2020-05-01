@@ -1,0 +1,31 @@
+2020-05-01 15:11:26 - myAutoTest - DEBUG - 开始保存房屋费用信息~~
+2020-05-01 15:11:26 - myAutoTest - INFO - 正在使用 linux 上的 Chrome 浏览器进行测试
+2020-05-01 15:11:26 - myAutoTest - INFO - 用户 18819151992 正在登陆~
+2020-05-01 15:11:33 - myAutoTest - INFO - 用户 18819151992 登陆成功~
+2020-05-01 15:11:35 - myAutoTest - DEBUG - 开始保存房屋费用信息~~
+2020-05-01 15:11:35 - myAutoTest - INFO - 正在使用 windows 上的 Chrome 浏览器进行测试
+2020-05-01 15:11:35 - myAutoTest - INFO - 用户 18819151992 正在登陆~
+2020-05-01 15:11:43 - myAutoTest - INFO - 获取到页面：深圳
+2020-05-01 15:11:43 - myAutoTest - INFO - 当前 url 是：https://sz.zu.ke.com/zufang
+2020-05-01 15:11:43 - myAutoTest - INFO - 正在访问 深圳 的租房信息
+2020-05-01 15:11:47 - myAutoTest - INFO - 用户 18819151992 登陆成功~
+2020-05-01 15:11:49 - myAutoTest - DEBUG - 得到筛选后的页面~~
+2020-05-01 15:11:55 - myAutoTest - INFO - 当前房屋信息的 url 地址是：https://sz.zu.ke.com/zufang/SZ2511689260101541888.html?nav=200600000002&unique_id=edadd585-03af-4bcc-a79a-09d72e5888f5zufangrco11rt200600000002rp21588317109941
+2020-05-01 15:11:56 - myAutoTest - DEBUG - 获取到所有的费用信息
+2020-05-01 15:11:57 - myAutoTest - INFO - 保存商品信息成功~
+2020-05-01 15:12:00 - myAutoTest - INFO - 获取到页面：广州
+2020-05-01 15:12:00 - myAutoTest - INFO - 当前 url 是：https://gz.zu.ke.com/zufang
+2020-05-01 15:12:00 - myAutoTest - INFO - 正在访问 广州 的租房信息
+2020-05-01 15:12:04 - myAutoTest - DEBUG - 得到筛选后的页面~~
+2020-05-01 15:12:09 - myAutoTest - INFO - 当前房屋信息的 url 地址是：https://gz.zu.ke.com/zufang/GZ2512214782686806016.html?nav=200600000002&unique_id=ae4b6d04-cbdc-4890-8118-440ec12fbf67zufangrco11rt200600000002rp21588317125070
+2020-05-01 15:12:09 - myAutoTest - DEBUG - 获取到所有的费用信息
+2020-05-01 15:12:09 - myAutoTest - INFO - 保存商品信息成功~
+2020-05-01 15:33:11 - myAutoTest - DEBUG - 开始保存房屋费用信息~~
+2020-05-01 15:33:11 - myAutoTest - INFO - 用户 18819151992 正在登陆~
+2020-05-01 15:33:18 - myAutoTest - INFO - 用户 18819151992 登陆成功~
+2020-05-01 15:33:23 - myAutoTest - INFO - 获取到页面：深圳
+2020-05-01 15:33:23 - myAutoTest - INFO - 当前 url 是：https://sz.zu.ke.com/zufang
+2020-05-01 15:33:27 - myAutoTest - DEBUG - 得到筛选后的页面~~
+2020-05-01 15:33:31 - myAutoTest - INFO - 当前房屋信息的 url 地址是：https://sz.zu.ke.com/zufang/SZ2511689260101541888.html?nav=200600000002&unique_id=48cba173-d7fb-4951-a64b-1df88804c3bdzufangrco11rt200600000002rp21588318407323
+2020-05-01 15:33:31 - myAutoTest - DEBUG - 获取到所有的费用信息
+2020-05-01 15:33:31 - myAutoTest - INFO - 保存商品信息成功~
