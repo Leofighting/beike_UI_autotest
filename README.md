@@ -10,4 +10,4 @@
 
 > ![image](https://github.com/Leofighting/beike_UI_autotest/blob/master/utils/01.png)
 
-> [如页面无法展示，请点击](https://mubu.com/doc/ogGgxxTAX0)
+> [如图片无法展示，请点击](https://mubu.com/doc/ogGgxxTAX0)
