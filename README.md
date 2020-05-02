@@ -8,4 +8,6 @@
 
 #### 整体开发架构
 
-> ![](E:\测试\beike_test\utils\01.png)
+> ![image](https://github.com/Leofighting/beike_UI_autotest/blob/master/utils/01.png)
+
+> [如图片无法展示，请点击](https://mubu.com/doc/ogGgxxTAX0)
