@@ -4,6 +4,8 @@ __author__ = "leo"
 
 def set_mysql_config(env):
     """配置数据库参数"""
+    db_config = dict()
+
     if env == "dev":
         db_config = {
             "host": "localhost",

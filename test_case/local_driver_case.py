@@ -55,4 +55,3 @@ class LocalDriverCase(object):
 
 
 LocalDriver = LocalDriverCase()
-LocalDriver.save_info()

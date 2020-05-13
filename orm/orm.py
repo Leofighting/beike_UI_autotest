@@ -9,16 +9,23 @@ class ModelMetaClass(type):
     """定义元类，控制 model 对象的创建"""
 
     def __new__(cls, table_name, bases, attrs):
+        """
+        :param table_name: 数据库表名
+        :param bases: 父类的元组
+        :param attrs: 类的属性方法与值组成的键值对
+        """
         if table_name == "Model":
             return super().__new__(cls, table_name, bases, attrs)
 
         mappings = dict()
 
         for k, v in attrs.items():
+            # 保存类属性与列的映射关系到 mappings 字典中
             if isinstance(v, Field):
                 mappings[k] = v
 
         for k in mappings.keys():
+            # 将类的属性移除，使得定义的类字段不污染 User 的字段
             attrs.pop(k)
 
         attrs["__table__"] = table_name.lower()
@@ -27,7 +34,7 @@ class ModelMetaClass(type):
 
 
 class Model(dict, metaclass=ModelMetaClass):
-    """数据库模型"""
+    """数据库模型基类"""
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -50,7 +57,7 @@ class Model(dict, metaclass=ModelMetaClass):
 
     @staticmethod
     def __check_params(param_list):
-        """检验参数"""
+        """检验参数合法性，防止 SQL 注入"""
         args = []
         for param in param_list:
             if "\"" in param:
